@@ -1,0 +1,30 @@
+name = Plato
+description = This is a standard base Poetic site.
+core = 7.x
+
+; Core
+; ------------
+dependencies[] = block
+dependencies[] = contextual
+dependencies[] = image
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = number
+dependencies[] = options
+dependencies[] = path
+dependencies[] = taxonomy
+dependencies[] = dblog
+dependencies[] = search
+dependencies[] = shortcut
+dependencies[] = field_ui
+dependencies[] = file
+
+; Contrib
+; ------------
+dependencies[] = ctools
+dependencies[] = features
+dependencies[] = module_filter
+
+; Features
+; --------
+;dependencies[] = poetic_user_roles
