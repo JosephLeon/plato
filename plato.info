@@ -4,7 +4,9 @@ core = 7.x
 
 ; Core
 ; ------------
+dependencies[] = admin_menu
 dependencies[] = block
+dependencies[] = ckeditor
 dependencies[] = contextual
 dependencies[] = image
 dependencies[] = list
