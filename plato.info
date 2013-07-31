@@ -4,7 +4,6 @@ core = 7.x
 
 ; Core
 ; ------------
-dependencies[] = admin_menu
 dependencies[] = block
 dependencies[] = ckeditor
 dependencies[] = contextual
@@ -12,6 +11,7 @@ dependencies[] = image
 dependencies[] = list
 dependencies[] = menu
 dependencies[] = number
+dependencies[] = openid
 dependencies[] = options
 dependencies[] = path
 dependencies[] = taxonomy
@@ -23,10 +23,27 @@ dependencies[] = file
 
 ; Contrib
 ; ------------
+dependencies[] = admin_menu
 dependencies[] = ctools
 dependencies[] = features
+dependencies[] = fences
 dependencies[] = module_filter
+dependencies[] = filefield_paths
+dependencies[] = globalredirect
+dependencies[] = imce
+dependencies[] = inline_messages
+dependencies[] = libraries
+dependencies[] = menu_block
+dependencies[] = metatag
+dependencies[] = openid_selector
+dependencies[] = pathauto
+dependencies[] = robotstxt
+dependencies[] = strongarm
+dependencies[] = token
+dependencies[] = views
+dependencies[] = webform
+dependencies[] = xmlsitemap
 
 ; Features
-; --------
+; ------------
 ;dependencies[] = poetic_user_roles

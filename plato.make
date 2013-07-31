@@ -4,73 +4,103 @@ api = 2
 projects[drupal][version] = "7.22"
 
 ; Modules:
-projects[addressfield]																					= 1.0-beta4
+projects[addressfield]                                          = 1.0-beta4
 projects[admin_menu]                                            = 3.0-rc4
 projects[auto_nodetitle]                                        = 1.0
 projects[backup_migrate]                                        = 2.7
-projects[better_exposed_filters]																= 1.x-dev
-projects[calendar]																							= 3.4
-projects[captcha]																								= 1.0
+projects[better_exposed_filters]                                = 1.x-dev
+projects[calendar]                                              = 3.4
+projects[captcha]                                               = 1.0
 projects[ckeditor]                                              = 1.13
-projects[conditional_fields]																		= 3.x-dev
+projects[conditional_fields]                                    = 3.x-dev
 projects[cs_adaptive_image]                                     = 1.0
-projects[ctools]																								= 1.3
+projects[ctools]                                                = 1.3
 projects[colorbox]                                              = 2.4
-projects[date]																									= 2.6
+projects[date]                                                  = 2.6
 projects[devel]                                                 = 1.3
 projects[disqus]                                                = 1.9
 projects[easy_social]                                           = 2.10
-projects[entity]																								= 1.1
-projects[entityreference]																				= 1.0
+projects[entity]                                                = 1.1
+projects[entityreference]                                       = 1.0
 projects[eva]                                                   = 1.2
-projects[extlink]																								= 1.13
+projects[extlink]                                               = 1.13
 projects[fb]                                                    = 3.4-beta1
 projects[fboauth]                                               = 1.6
 projects[features]                                              = 2.0-rc1
-projects[feeds]																									= 2.0-alpha8
+
+projects[feeds]                                                 = 2.0-alpha8
+projects[feeds][patch][] = "https://drupal.org/files/feeds_remove_entities_not_in_feed-1470530-94.patch"
+
+projects[feeds_xpathparser]                                     = 1.0-beta4
+projects[feeds_tamper]                                          = 1.0-beta4
+projects[feeds_tamper_php]                                      = 1.0
 projects[fences]                                                = 1.0
-projects[field_group]																						= 1.1
+projects[field_group]                                           = 1.1
 projects[field_validation]                                      = 2.3
 projects[filefield_paths]                                       = 1.0-beta4
+projects[filefield_sources]                                     = 1.8
+projects[filefield_sources_plupload]                            = 1.0
 projects[fitvids]                                               = 1.12
 projects[flag]                                                  = 3.0
 projects[flexslider]                                            = 2.0-alpha1
 projects[globalredirect]                                        = 1.5
-projects[hidden_captcha]																				= 1.0
+projects[geocoder]                                              = 1.2
+projects[geofield]                                              = 1.2
+projects[google_analytics]                                      = 1.3
+projects[hidden_captcha]                                        = 1.0
 projects[imagecache_actions]                                    = 1.3
 projects[imagemarker]                                           = 1.0
 projects[imce]                                                  = 1.7
-projects[inline_messages]																				= 1.0
-projects[jquery_update]																					= 2.3
-projects[job_scheduler]																					= 2.0-alpha3
-projects[libraries]																							= 2.1
-projects[link]																									= 1.1
+projects[inline_messages]                                       = 1.0
+projects[jquery_update]                                         = 2.3
+projects[job_scheduler]                                         = 2.0-alpha3
+projects[leaflet]                                               = 1.0-beta3
+projects[leaflet_widget]                                        = 1.0-beta2
+projects[libraries]                                             = 2.1
+projects[link]                                                  = 1.1
+projects[menu_attributes]                                       = 1.0-rc2
 projects[menu_block]                                            = 2.3
 projects[menu_item_visibility]                                  = 1.0-beta1
 projects[metatag]                                               = 1.0-beta7
 projects[module_filter]                                         = 1.7
-projects[multiblock]																						= 1.1
+projects[multiblock]                                            = 1.1
 projects[multiupload_filefield_widget]                          = 1.11
 projects[multiupload_imagefield_widget]                         = 1.2
-projects[nice_menus]																						= 2.5
+projects[nice_menus]                                            = 2.5
 projects[nodeblock]                                             = 1.3
-projects[node_clone]																						= 1.0-rc1
+projects[node_clone]                                            = 1.0-rc1
 projects[openid_selector]                                       = 1.x-dev
+projects[openlayers]                                            = 2.0-beta7
 projects[pathauto]                                              = 1.2
+projects[plupload]                                              = 1.2
 projects[print]                                                 = 1.2
-projects[robotstxt]																							= 1.1
-projects[rules]																									= 2.3
-projects[scroll_to_top]																					= 2.1
-projects[special_menu_items]																		= 2.0
-projects[strongarm]																							= 2.0
-projects[token]																									=	1.5
-projects[variable]																							= 2.2
-projects[views]																									= 3.7
-projects[views_bulk_operations]																	= 3.1
-projects[views_php]																							= 1.x-dev
-projects[webform]																								= 3.19
-projects[webform_validation]																		= 1.2
-projects[xmlsitemap]																						= 2.0-rc2
+projects[robotstxt]                                             = 1.1
+projects[rules]                                                 = 2.3
+projects[scroll_to_top]                                         = 2.1
+projects[special_menu_items]                                    = 2.0
+projects[strongarm]                                             = 2.0
+projects[token]                                                 = 1.5
+projects[variable]                                              = 2.2
+projects[views]                                                 = 3.7
+projects[views_bulk_operations]                                 = 3.1
+projects[views_php]                                             = 1.x-dev
+projects[views_slideshow]                                       = 3.0
+projects[webform]                                               = 3.19
+projects[webform_validation]                                    = 1.2
+projects[xmlsitemap]                                            = 2.0-rc2
+
+; Uses our own repo of feeds_jsonpath_parser because the php library needs to be
+; in the module folder but drush version 4 throws an error stopping platform creation
+projects[feeds_jsonpath_parser][type] = "module"
+projects[feeds_jsonpath_parser][download][type] = "git"
+projects[feeds_jsonpath_parser][download][url]="https://bitbucket.org/poetic/feeds_jsonpath_parser.git"
+
+; this chunk of code is needed so geophp doesnt throw release history error:
+; http://drupal.org/node/1986546 has some documantation:
+projects[geophp][type] = "module"
+projects[geophp][download][type] = "git"
+projects[geophp][download][url] = "http://git.drupal.org/project/geophp.git"
+projects[geophp][download][branch] = "7.x-1.7"
 
 
 ; Libraries:
@@ -103,3 +133,10 @@ libraries[flexslider][type] = "library"
 libraries[flexslider][directory_name] = "flexslider"
 libraries[flexslider][download][type] = "git"
 libraries[flexslider][download][url] = "https://github.com/woothemes/FlexSlider.git"
+
+# Flexslider
+libraries[leaflet_widget][type] = "library"
+libraries[leaflet_widget][directory_name] = "leaflet_widget"
+libraries[leaflet_widget][download][type] = "git"
+libraries[leaflet_widget][download][url] = "https://github.com/tnightingale/Leaflet.widget.git"
+
