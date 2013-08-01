@@ -74,6 +74,7 @@ projects[openlayers]                                            = 2.0-beta7
 projects[pathauto]                                              = 1.2
 projects[plupload]                                              = 1.2
 projects[print]                                                 = 1.2
+projects[proj4js]																								= 1.2
 projects[robotstxt]                                             = 1.1
 projects[rules]                                                 = 2.3
 projects[scroll_to_top]                                         = 2.1
