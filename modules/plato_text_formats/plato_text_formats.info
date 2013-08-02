@@ -1,0 +1,13 @@
+name = Plato Text Formats
+description = Text formats system base
+core = 7.x
+package = Plato
+version = 7.x-1.0
+project = plato_text_formats
+dependencies[] = features
+dependencies[] = filter
+features[features_api][] = api:2
+features[filter][] = filtered_html
+features[filter][] = full_html
+features[filter][] = no_formatting
+features[filter][] = plain_text

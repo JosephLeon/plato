@@ -1,0 +1,11 @@
+name = Plato Image Jpeg Quality
+description = Sets Jpeg quality to maximum.
+core = 7.x
+package = Plato
+version = 7.x-1.0
+project = plato_image_jpeg_quality
+dependencies[] = ctools
+dependencies[] = strongarm
+features[ctools][] = strongarm:strongarm:1
+features[features_api][] = api:2
+features[variable][] = image_jpeg_quality

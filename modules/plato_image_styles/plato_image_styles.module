@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Plato Image Styles feature.
+ */
+
+include_once 'plato_image_styles.features.inc';

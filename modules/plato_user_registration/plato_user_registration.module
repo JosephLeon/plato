@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Plato User Registration feature.
+ */
+
+include_once 'plato_user_registration.features.inc';

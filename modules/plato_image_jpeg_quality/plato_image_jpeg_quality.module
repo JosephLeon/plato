@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Plato Image Jpeg Quality feature.
+ */
+
+include_once 'plato_image_jpeg_quality.features.inc';

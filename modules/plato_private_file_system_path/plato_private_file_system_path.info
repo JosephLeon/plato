@@ -1,0 +1,11 @@
+name = Plato Private File System Path
+description = Sets the private file system path.
+core = 7.x
+package = Plato
+version = 7.x-1.0
+project = plato_private_file_system_path
+dependencies[] = ctools
+dependencies[] = strongarm
+features[ctools][] = strongarm:strongarm:1
+features[features_api][] = api:2
+features[variable][] = file_private_path

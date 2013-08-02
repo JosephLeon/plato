@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Plato Basic Page feature.
+ */
+
+include_once 'plato_basic_page.features.inc';

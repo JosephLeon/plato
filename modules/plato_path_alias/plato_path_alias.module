@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Plato Path Alias feature.
+ */
+
+include_once 'plato_path_alias.features.inc';
