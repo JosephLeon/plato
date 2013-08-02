@@ -12,4 +12,5 @@
  * @see system_install()
  */
 function plato_install() {
+  $admin_theme = 'seven';
 }
