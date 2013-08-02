@@ -25,6 +25,8 @@ dependencies[] = file
 ; ------------
 dependencies[] = admin_menu
 dependencies[] = ctools
+dependencies[] = entity
+dependencies[] = entity_token
 dependencies[] = features
 dependencies[] = fences
 dependencies[] = module_filter
@@ -35,14 +37,21 @@ dependencies[] = inline_messages
 dependencies[] = libraries
 dependencies[] = menu_block
 dependencies[] = metatag
+dependencies[] = metatag_views
 dependencies[] = openid_selector
 dependencies[] = pathauto
 dependencies[] = robotstxt
 dependencies[] = strongarm
 dependencies[] = token
 dependencies[] = views
+dependencies[] = views_ui
 dependencies[] = webform
+dependencies[] = webform_validation
 dependencies[] = xmlsitemap
+dependencies[] = xmlsitemap_menu
+dependencies[] = xmlsitemap_node
+dependencies[] = xmlsitemap_engines
+dependencies[] = google_analytics
 
 ; Features
 ; ------------
