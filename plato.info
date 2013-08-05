@@ -55,4 +55,12 @@ dependencies[] = google_analytics
 
 ; Features
 ; ------------
-;dependencies[] = poetic_user_roles
+dependencies[] = plato_article
+dependencies[] = plato_basic_page
+dependencies[] = plato_home_page
+dependencies[] = plato_image_jpeg_quality
+dependencies[] = plato_image_styles
+dependencies[] = plato_path_alias
+dependencies[] = plato_private_file_system
+dependencies[] = plato_text_formats
+dependencies[] = plato_user_registration
