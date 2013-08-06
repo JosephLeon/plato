@@ -29,7 +29,7 @@ projects[fboauth]                                               = 1.6
 projects[features]                                              = 2.0-rc1
 
 projects[feeds]                                                 = 2.0-alpha8
-projects[feeds][patch][] = "https://drupal.org/files/feeds_remove_entities_not_in_feed-1470530-94.patch"
+projects[feeds][patch][] = "http://drupal.org/files/feeds_remove_entities_not_in_feed-1470530-94.patch"
 
 projects[feeds_xpathparser]                                     = 1.0-beta4
 projects[feeds_tamper]                                          = 1.0-beta4
