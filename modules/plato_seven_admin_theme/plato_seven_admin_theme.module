@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Plato Seven Admin Theme feature.
+ */
+
+include_once 'plato_seven_admin_theme.features.inc';
