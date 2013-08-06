@@ -51,7 +51,7 @@ dependencies[] = xmlsitemap
 dependencies[] = xmlsitemap_menu
 dependencies[] = xmlsitemap_node
 dependencies[] = xmlsitemap_engines
-dependencies[] = google_analytics
+dependencies[] = googleanalytics
 
 ; Features
 ; ------------
@@ -61,6 +61,6 @@ dependencies[] = plato_home_page
 dependencies[] = plato_image_jpeg_quality
 dependencies[] = plato_image_styles
 dependencies[] = plato_path_alias
-dependencies[] = plato_private_file_system
+dependencies[] = plato_private_file_system_path
 dependencies[] = plato_text_formats
 dependencies[] = plato_user_registration
