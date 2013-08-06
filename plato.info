@@ -63,3 +63,4 @@ dependencies[] = plato_path_alias
 dependencies[] = plato_private_file_system_path
 dependencies[] = plato_text_formats
 dependencies[] = plato_user_registration
+dependencies[] = plato_seven_admin_theme
