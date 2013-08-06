@@ -79,6 +79,7 @@ projects[robotstxt]                                             = 1.1
 projects[rules]                                                 = 2.3
 projects[scroll_to_top]                                         = 2.1
 projects[special_menu_items]                                    = 2.0
+projects[social_buttons]																				= 1.3
 projects[strongarm]                                             = 2.0
 projects[token]                                                 = 1.5
 projects[uuid]																									= 1.0-alpha5
