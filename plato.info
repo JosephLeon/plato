@@ -55,12 +55,9 @@ dependencies[] = googleanalytics
 
 ; Features
 ; ------------
-dependencies[] = plato_article
-dependencies[] = plato_basic_page
 dependencies[] = plato_image_jpeg_quality
-dependencies[] = plato_image_styles
 dependencies[] = plato_path_alias
 dependencies[] = plato_private_file_system_path
+dependencies[] = plato_seven_admin_theme
 dependencies[] = plato_text_formats
 dependencies[] = plato_user_registration
-dependencies[] = plato_seven_admin_theme
