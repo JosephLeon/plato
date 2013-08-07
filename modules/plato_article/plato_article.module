@@ -1,7 +1,0 @@
-<?php
-/**
- * @file
- * Code for the Plato Article feature.
- */
-
-include_once 'plato_article.features.inc';
