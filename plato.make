@@ -58,6 +58,7 @@ projects[leaflet]                                               = 1.0-beta3
 projects[leaflet_widget]                                        = 1.0-beta2
 projects[libraries]                                             = 2.1
 projects[link]                                                  = 1.1
+projects[media]																									= 1.3
 projects[menu_attributes]                                       = 1.0-rc2
 projects[menu_block]                                            = 2.3
 projects[menu_item_visibility]                                  = 1.0-beta1
