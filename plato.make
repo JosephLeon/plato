@@ -27,7 +27,7 @@ projects[eva]                                                   = 1.2
 projects[extlink]                                               = 1.13
 projects[fb]                                                    = 3.4-beta1
 projects[fboauth]                                               = 1.6
-projects[features]                                              = 2.0-rc1
+projects[features]                                              = 2.0-rc2
 
 projects[feeds]                                                 = 2.0-alpha8
 projects[feeds][patch][] = "http://drupal.org/files/feeds_remove_entities_not_in_feed-1470530-94.patch"
@@ -64,7 +64,7 @@ projects[menu_attributes]                                       = 1.0-rc2
 projects[menu_block]                                            = 2.3
 projects[menu_item_visibility]                                  = 1.0-beta1
 projects[metatag]                                               = 1.0-beta7
-projects[module_filter]                                         = 1.7
+projects[module_filter]                                         = 1.8
 projects[multiblock]                                            = 1.1
 projects[multiupload_filefield_widget]                          = 1.11
 projects[multiupload_imagefield_widget]                         = 1.2
