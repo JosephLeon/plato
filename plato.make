@@ -9,6 +9,7 @@ projects[admin_menu]                                            = 3.0-rc4
 projects[auto_nodetitle]                                        = 1.0
 projects[backup_migrate]                                        = 2.7
 projects[better_exposed_filters]                                = 1.x-dev
+projects[boolean_icon]																					= 1.1
 projects[calendar]                                              = 3.4
 projects[captcha]                                               = 1.0
 projects[ckeditor]                                              = 1.13
