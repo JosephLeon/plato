@@ -93,6 +93,7 @@ projects[views_php]                                             = 1.x-dev
 projects[views_slideshow]                                       = 3.0
 projects[webform]                                               = 3.19
 projects[webform_validation]                                    = 1.2
+projects[weight]																								= 2.3
 projects[xmlsitemap]                                            = 2.0-rc2
 
 ; Uses our own repo of feeds_jsonpath_parser because the php library needs to be
