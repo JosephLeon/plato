@@ -27,7 +27,7 @@ projects[eva]                                                   = 1.2
 projects[extlink]                                               = 1.13
 projects[fb]                                                    = 3.4-beta1
 projects[fboauth]                                               = 1.6
-projects[features]                                              = 2.0-rc2
+projects[features]                                              = 2.0-rc3
 
 projects[feeds]                                                 = 2.0-alpha8
 projects[feeds][patch][] = "http://drupal.org/files/feeds_remove_entities_not_in_feed-1470530-94.patch"
