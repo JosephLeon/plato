@@ -17,6 +17,7 @@ projects[conditional_fields]                                    = 3.x-dev
 projects[cs_adaptive_image]                                     = 1.0
 projects[ctools]                                                = 1.3
 projects[colorbox]                                              = 2.4
+projects[custom_breadcrumbs]                                    = 2.0-alpha3
 projects[date]                                                  = 2.6
 projects[devel]                                                 = 1.3
 projects[disqus]                                                = 1.9
