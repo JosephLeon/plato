@@ -57,6 +57,8 @@ projects[imce]                                                  = 1.7
 projects[inline_messages]                                       = 1.0
 projects[jquery_update]                                         = 2.3
 projects[job_scheduler]                                         = 2.0-alpha3
+; label_help needs to be checked for non dev before comp:
+projects[label_help]																						= 1.x-dev
 projects[leaflet]                                               = 1.0-beta3
 projects[leaflet_widget]                                        = 1.0-beta2
 projects[libraries]                                             = 2.1
