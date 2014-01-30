@@ -92,6 +92,7 @@ projects[proj4js]                                               = 1.2
 projects[responsive_menus]                                      = 1.3
 projects[robotstxt]                                             = 1.1
 projects[rules]                                                 = 2.3
+projects[search_krumo]																					= 1.5
 projects[scroll_to_top]                                         = 2.1
 projects[special_menu_items]                                    = 2.0
 projects[social_buttons]                                        = 1.3
