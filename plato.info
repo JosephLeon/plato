@@ -28,6 +28,7 @@ dependencies[] = ctools
 dependencies[] = entity
 dependencies[] = entity_token
 dependencies[] = features
+dependencies[] = elements
 dependencies[] = fences
 dependencies[] = module_filter
 dependencies[] = filefield_paths
@@ -52,6 +53,8 @@ dependencies[] = xmlsitemap_menu
 dependencies[] = xmlsitemap_node
 dependencies[] = xmlsitemap_engines
 dependencies[] = googleanalytics
+dependencies[] = magic
+dependencies[] = html5_tools
 
 ; Features
 ; ------------
