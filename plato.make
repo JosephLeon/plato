@@ -71,6 +71,7 @@ projects[mailsystem]                                            = 2.34
 projects[media]                                                 = 1.3
 projects[menu_attributes]                                       = 1.0-rc2
 projects[menu_block]                                            = 2.3
+projects[menu_trail_by_path]																		= 2.0
 projects[menu_item_visibility]                                  = 1.0-beta1
 projects[metatag]                                               = 1.0-beta9
 projects[mimemail]                                              = 1.0-beta1
