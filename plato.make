@@ -29,6 +29,7 @@ projects[entityreference]                                       = 1.0
 projects[entity_view_mode]                                      = 1.0-rc1
 projects[eva]                                                   = 1.2
 projects[extlink]                                               = 1.13
+projects[faqfield]																							= 1.1
 projects[fb]                                                    = 3.4-beta1
 projects[fboauth]                                               = 1.6
 projects[features]                                              = 2.0
