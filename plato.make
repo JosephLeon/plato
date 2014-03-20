@@ -13,6 +13,7 @@ projects[boolean_icon]                                          = 1.1
 projects[calendar]                                              = 3.4
 projects[captcha]                                               = 1.0
 projects[ckeditor]                                              = 1.13
+projects[clientside_validation]																	= 1.39
 projects[conditional_fields]                                    = 3.x-dev
 projects[cs_adaptive_image]                                     = 1.0
 projects[ctools]                                                = 1.3
