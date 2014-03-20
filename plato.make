@@ -99,6 +99,7 @@ projects[scroll_to_top]                                         = 2.1
 projects[special_menu_items]                                    = 2.0
 projects[social_buttons]                                        = 1.3
 projects[strongarm]                                             = 2.0
+projects[superfish]																							= 1.9
 projects[tablefield]																						= 2.2
 projects[token]                                                 = 1.5
 projects[transliteration]                                       = 3.1
