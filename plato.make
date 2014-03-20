@@ -41,6 +41,7 @@ projects[feeds_xpathparser]                                     = 1.0-beta4
 projects[feeds_tamper]                                          = 1.0-beta4
 projects[feeds_tamper_php]                                      = 1.0
 projects[fences]                                                = 1.0
+projects[field_collection]																			= 1.0-beta7
 projects[field_group]                                           = 1.1
 projects[field_validation]                                      = 2.3
 projects[filefield_paths]                                       = 1.0-beta4
