@@ -9,6 +9,7 @@ projects[adminimal_theme][version] 															= 1.2
 ; Modules:
 projects[addressfield]                                          = 1.0-beta4
 projects[admin_menu]                                            = 3.0-rc4
+projects[adminimal_admin_menu]																	= 1.5
 projects[auto_nodetitle]                                        = 1.0
 projects[backup_migrate]                                        = 2.7
 projects[better_exposed_filters]                                = 3.0-beta3
