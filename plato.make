@@ -116,6 +116,7 @@ projects[views]                                                 = 3.7
 projects[views_accordion]                                       = 1.0-rc2
 projects[views_bulk_operations]                                 = 3.1
 projects[views_php]                                             = 1.x-dev
+projects[views_rss]																							= 2.0-rc3
 projects[views_slideshow]                                       = 3.0
 projects[webform]                                               = 3.20
 projects[webform_multifile]                                     = 1.2
