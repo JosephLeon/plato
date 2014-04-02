@@ -184,5 +184,6 @@ function plato_install() {
     ->fields(array('uid' => 1, 'rid' => $admin_role->rid))
     ->execute();
 
+  variable_set('admin_theme', 'adminimal');
 
 }
