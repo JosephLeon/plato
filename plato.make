@@ -3,6 +3,9 @@ core = 7.x
 api = 2
 projects[drupal][version] = "7.26"
 
+; Themes:
+projects[adminimal_theme][version] 															= 1.2
+
 ; Modules:
 projects[addressfield]                                          = 1.0-beta4
 projects[admin_menu]                                            = 3.0-rc4
