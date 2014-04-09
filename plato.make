@@ -172,7 +172,7 @@ libraries[flexslider][directory_name] = "flexslider"
 libraries[flexslider][download][type] = "git"
 libraries[flexslider][download][url] = "https://github.com/woothemes/FlexSlider.git"
 
-# Flexslider
+# Leaflet
 libraries[leaflet_widget][type] = "library"
 libraries[leaflet_widget][directory_name] = "leaflet_widget"
 libraries[leaflet_widget][download][type] = "git"
