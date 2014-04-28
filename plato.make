@@ -99,6 +99,7 @@ projects[plupload]                                              = 1.2
 projects[print]                                                 = 1.2
 projects[proj4js]                                               = 1.2
 projects[qtip]																									= 1.5
+projects[redirect]																							= 1.0-rc1
 projects[responsive_menus]                                      = 1.3
 projects[robotstxt]                                             = 1.1
 projects[rules]                                                 = 2.3
