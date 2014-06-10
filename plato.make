@@ -141,6 +141,10 @@ projects[geophp][download][type] = "git"
 projects[geophp][download][url] = "http://git.drupal.org/project/geophp.git"
 projects[geophp][download][branch] = "7.x-1.7"
 
+projects[create_zen][type] = "module"
+projects[create_zen][download][type] = "git"
+projects[create_zen][download][url] = "https://github.com/JosephLeon/drupal-theme-generator.git"
+
 
 ; Libraries:
 # CKEditor
