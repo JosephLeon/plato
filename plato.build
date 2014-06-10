@@ -1,0 +1,10 @@
+core = 7.x
+api = 2
+
+projects[drupal][version] = "7.28"
+
+; Profile
+projects[plato][type] = profile
+projects[plato][download][type] = git
+projects[plato][download][url] = https://bitbucket.org/joseph_leon/plato.git
+
