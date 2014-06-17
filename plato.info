@@ -24,7 +24,6 @@ dependencies[] = file
 ; Contrib
 ; ------------
 dependencies[] = admin_menu
-dependencies[] = adminimal_admin_menu
 dependencies[] = ctools
 dependencies[] = entity
 dependencies[] = entity_token
@@ -54,8 +53,7 @@ dependencies[] = xmlsitemap_menu
 dependencies[] = xmlsitemap_node
 dependencies[] = xmlsitemap_engines
 dependencies[] = googleanalytics
-dependencies[] = magic
-dependencies[] = html5_tools
+dependencies[] = create_zen
 
 ; Features
 ; ------------
@@ -64,5 +62,4 @@ dependencies[] = plato_path_alias
 dependencies[] = plato_text_formats
 dependencies[] = plato_permissions
 dependencies[] = plato_private_file_system_path
-;dependencies[] = plato_seven_admin_theme
 dependencies[] = plato_user_registration
