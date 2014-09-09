@@ -1,1 +1,1 @@
-Insert directions later, just initial file creation
+This is the Poetic make file for standard sites.
