@@ -13,6 +13,7 @@ projects[bg_image_formatter]                                    = 1.2
 projects[block_class]                                           = 2.1
 projects[ckeditor]                                              = 1.16
 projects[conditional_fields]                                    = 3.x-dev
+projects[coffee]
 projects[cs_adaptive_image]                                     = 1.0
 projects[ctools]                                                = 1.4
 projects[colorbox]                                              = 2.7
